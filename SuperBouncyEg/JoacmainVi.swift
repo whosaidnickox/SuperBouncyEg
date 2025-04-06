@@ -27,7 +27,7 @@ struct JoacmainVi: View {
             WKWebViewRepresentable(url: URL(string: "https://freepolicyourgheim.xyz/red/game/super-bouncy-egg/")!)
                 .mask {
                     Rectangle()
-                        .padding(.horizontal, UIScreen.main.bounds.height > 680 ? 86 : 48)
+                        .padding(.horizontal, UIScreen.main.bounds.width > 680 ? 97 : 48)
                 }
             
         }
